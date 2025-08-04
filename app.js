@@ -1,7 +1,7 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-  res.end("Hello from Docker in GitHub Actions!");
+  res.end("Hello from Docker in GitHub Actions");
 });
 
 server.listen(3000, () => {
